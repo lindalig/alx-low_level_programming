@@ -10,4 +10,4 @@ int main(void)
 	printf("Size of a long int: 4 byte(s)\n", sizeo f(long int));
 	printf("Size of a long long int: 8 byte(s)\n", sizeo f(long long int));
 	printf("Size of a float: 4 byte(s)\n", sizeo f(float));
-	return (0); }
+return (0); }
