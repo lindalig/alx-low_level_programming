@@ -1,27 +1,18 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints a diagonal line
- * @n: number of times
- * Return: no return
+ * print_line - draws a straight line on the terminal
+ * @n: times straight line is printed
+ * Return: not retuen.
  */
-void print_diagonal(int n)
+
+void print_line(int n)
 {
-	int i = 0, j;
+	int i;
 
-	while (i < n && n > 0)
+	for (i = 0; i < n; i++)
 	{
-		j = 0;
-		while (j < i)
-		{
-			_putchar(' ');
-			j++;
-		}
-
-		_putchar('\\');
-		_putchar('\n');
-		i++;
+		_putchar(95);
 	}
-	if (i == 0)
-		_putchar('\n');
+	_putchar('\n');
 }
