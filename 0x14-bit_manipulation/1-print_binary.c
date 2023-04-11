@@ -2,7 +2,9 @@
 
 /**
  * print_binary - prints the binary equivalent of a decimal number
- * @n: number to print in binary
+ * @n: unsigned long int.
+ *
+ * Return: no return.
  */
 void print_binary(unsigned long int n)
 {
